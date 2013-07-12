@@ -1,0 +1,25 @@
+{
+  "name": "cs-config",
+  "description": "Simple configuration management interface",
+  "version": "0.0.2",
+  "author": {
+    "name": "E.Naumenko"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EugeneN/cs-config"
+  },
+  "scripts": {
+    "postinstall": "coffee -c index.coffee"
+  },
+  "cafebuild": "coffee -c index.coffee",
+  "dependencies": {
+    "libprotein": "*",
+    "libprotocol": "*"
+  },
+  "engine": [
+    "node >=0.1.102"
+  ],
+  "main": "./index.js",
+  "readmeFilename": "README.md"
+}
